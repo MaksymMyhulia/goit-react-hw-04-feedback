@@ -17,4 +17,5 @@ export const FeedbackButtons = ({
 FeedbackButtons.propTypes = {
     type: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired,
+    onClick: PropTypes.func.isRequired,
 };
